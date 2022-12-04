@@ -17,6 +17,7 @@ exports.create = (req, res) => {
         ancho: req.body.ancho,
         alto: req.body.alto,
         peso: req.body.peso,
+        estado: req.body.estado,
         direccionRecogida: req.body.direccionRecogida,
         ciudadRecogida: req.body.ciudadRecogida,
         nombreDestinatario: req.body.nombreDestinatario,

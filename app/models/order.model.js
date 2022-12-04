@@ -9,6 +9,7 @@ module.exports = mongoose => {
           ancho: String,
           alto: String,
           peso: String,
+          estado: String,
           direccionRecogida: String,
           ciudadRecogida: String,
           nombreDestinatario: String,
